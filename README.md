@@ -40,7 +40,7 @@ necessary config files to install the required packages for that distribution.
 
 To update the system after installation, you clone the ParticleOS repository
 or your fork of it, make sure `mkosi.local.conf` is configured to your liking and
-run `mkosi -B -ff sysupdate -- update --reboot` which will update the system using
+run `mkosi -B -ff sysupdate --update --reboot` which will update the system using
 `systemd-sysupdate` and then reboot.
 
 ## Using the OBS profile to fetch a newer systemd
